@@ -1,0 +1,14 @@
+.div{width: 80%;
+margin: auto;
+height: 600px;
+font-size: 17px;}
+
+.img{width:100%;
+height:600px;}
+
+.iimg{width: 30%;
+    height: 325px;
+float: left;
+margin-right: 10px;
+position: relative;}
+
