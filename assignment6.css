@@ -1,0 +1,114 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(229, 253, 229);
+    box-sizing: border-box;
+}
+
+
+
+
+.header{display: flex;
+justify-content: flex-end;
+align-items: center;
+padding: 1px 5%;
+width: 90%;
+height: 50px;
+background-color: rgb(112, 177, 155);
+margin: auto;
+border: 1px solid rgb(138, 216, 21);
+}
+
+.navlinks li{
+    display: inline;
+    padding: 0px 10px; 
+}
+
+li, a{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+    border-bottom: 5px solid transparent;
+    animation: border-bottom 1s;
+}
+
+.navlinks li a:hover{
+    border-bottom: 5px solid gold;
+}
+
+/*Navigation element ends here*/
+
+h3{margin-right: auto;
+color: white;
+font-size: 1.8em;}
+
+h3 > strong{color: gold;}
+
+.img{
+    width: 72%;
+    height: 400px;
+    
+}
+
+.h1{margin-top: 5%;}
+
+.pa{color: rgb(61, 66, 61);
+font-size: 1.4em;}
+
+.a{color: rgb(9, 130, 201);
+text-decoration: underline;}
+
+.foot{
+    text-align: center;
+    padding: 20px 5% 0px 5%;
+    width: 90%;
+    height: 50px;
+    background-color: rgb(112, 177, 155);
+    margin: auto;
+    border: 1px solid rgb(138, 216, 21);
+    color: white;
+}
+
+.h2{color: rgb(61, 66, 61);}
+
+ table, th, td{border: 2px solid black;
+border-collapse: collapse;
+background-color: rgb(198, 231, 198);
+}
+
+th, td{padding: 5px;}
+
+.caption{
+    font-size: 13px;
+    background-color: rgb(198, 231, 198);
+    width: 72%;
+}
+
+.form{width: 50%;
+    margin: auto;
+    height: 600px;
+    background-color: rgb(118, 165, 118);
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-left: 40px;
+    border-radius: 20px;
+}
+
+.h3{font-size: 1.5em;
+color: black;}
+
+.label{font-size: 1.1em;}
+
+.input{padding-top: 15px;
+width: 450px;
+border-radius: 10px;}
+
+.button{width: 91%;
+border-radius: 10px;
+height: 35px;
+margin-top: 6px;
+background-color: rgb(54, 141, 54);
+color: white;}
